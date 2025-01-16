@@ -1,0 +1,33 @@
+.column {
+  width: 400px;
+  float: left;
+  margin: 10px;
+  transition: transform 0.5s;
+}
+
+.column :hover {
+  background-color: #f0f0f0;
+  color : blue;
+  transform: scale(1.1);
+  padding top: 0px; 
+  padding bottom: 0px;
+}
+  
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+    
+}
+
+@media screen and (min-width: 800px) {
+  .column {
+    width: 400px;
+    float : left;
+    background-color: blue;
+    color: white;
+  }
+    
+}
